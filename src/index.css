@@ -12,4 +12,72 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to bottom right, #eff6ff, #e0e7ff);
   min-height: 100vh;
+  padding: 2rem 4rem !important;
+}
+
+#root {
+  max-width: 1400px;
+  margin: 0 auto !important;
+  padding: 2rem !important;
+  width: 100%;
+}
+
+/* Main app container */
+.App {
+  padding: 2rem !important;
+  margin: 0 auto !important;
+  max-width: 1200px;
+}
+
+/* Additional container spacing */
+.container {
+  padding: 2rem !important;
+  margin: 1rem auto !important;
+  max-width: 100%;
+}
+
+/* Card/Section spacing */
+.card, .section {
+  margin: 1.5rem auto !important;
+  padding: 2rem !important;
+}
+
+/* Form elements spacing */
+form {
+  padding: 1.5rem !important;
+  max-width: 900px;
+  margin: 0 auto !important;
+}
+
+input, textarea, select, button {
+  margin: 0.75rem 0 !important;
+}
+
+/* Chart container spacing */
+.chart-container {
+  padding: 2rem !important;
+  margin: 2rem auto !important;
+  max-width: 800px;
+}
+
+/* Text areas and inputs */
+textarea {
+  padding: 1rem !important;
+  margin: 1rem 0 !important;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1rem 0 !important;
+  padding: 0.5rem 0 !important;
+}
+
+/* Paragraphs */
+p {
+  margin: 0.75rem 0 !important;
+}
+
+/* Divs with specific content */
+div {
+  margin: 0.5rem 0;
 }
