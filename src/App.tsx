@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import "./App.css";
 
 const API_BASE =
-  process.env.REACT_APP_API_URL || "http://localhost:8000"; // adjust if your backend path is different
+  process.env.REACT_APP_API_URL || "https://safeai-backend.onrender.com";
+ // adjust if your backend path is different
 
 type SafetyLevel = "LOW" | "MEDIUM" | "HIGH";
 
